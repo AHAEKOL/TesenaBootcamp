@@ -1,0 +1,15 @@
+1.	select customer.cust_name as "Customer Name", customer.city, salesman.name as "Salesman name", salesman.commission
+	from customer join salesman
+	on customer.salesman_id = salesman.salesman_id
+
+2.	select * from orders join customer on orders.salesman_id=customer.salesman_id join salesman on orders.salesman_id=salesman.salesman_id
+
+3.	select orders.ord_no, orders.purch_amt, customer.cust_name as "Customer name", customer.city
+	from orders join customer on orders.customer_id=customer.customer_id
+	where purch_amt >= 500 and purch_amt <= 2000
+
+4.	select * from orders
+	where salesman_id=(select salesman_id from salesman where name= 'James Hoog')
+
+5.	select * from orders
+	where purch_amt > (select avg(purch_amt) from orders where ord_date= '10-OCT-12')

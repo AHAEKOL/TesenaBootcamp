@@ -1,0 +1,11 @@
+distinct-values(//book/@*) unique categories of books
+
+1. books in "web" cat:		/bookstore/book[@category='web']/title
+
+2. all the prices up to 35:	/bookstore/book[price > 35]/price
+
+3. search for "Kurt Cagle":	/bookstore/book[3]/author[3]
+
+4. sum of the books from 2005:	count(/bookstore/book[year = 2005])	
+
+

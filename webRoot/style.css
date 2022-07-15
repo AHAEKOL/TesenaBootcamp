@@ -1,0 +1,111 @@
+﻿/* Main elements of the page */
+
+body
+{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+	background-image: url("images/yellow_background.png");
+}
+
+#main_wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+
+
+/* Header */
+header
+{
+  padding: 0px;
+  text-align: left;
+  
+}
+
+#float_right
+{
+	float:right;
+}
+#inline_li
+{
+  display: inline;
+  margin: 10px 10px 10px 10px;
+  
+ 
+}
+
+/* Banner */
+#rounded
+{
+	border-radius: 20px;
+}
+
+
+/* Body */
+#line
+{
+	lenght: 900 px;
+}
+section
+{
+	float: left;
+	width: 60%;
+	font-size: 10px;
+}
+aside
+
+{
+	float: right;
+	width: 30%;
+	border-radius: 25px;
+	font-size: 10px;
+	background-color:#706B64;
+}
+#centered_img
+{
+	display:block;
+     margin-left: auto;
+        margin-right: auto;
+}
+#centered_p
+{
+	display:block;
+    margin-left: 10px;
+    margin-right: 10px;
+}	
+#aside_arrow
+{
+    position:absolute;
+    margin-left: -12px;
+    margin-top:-85px;
+}
+/* Footer */
+footer
+{
+	clear:both;
+	padding: 20px;
+}
+
+#tweet
+{
+	float:left;
+	width: 30%;
+}
+#my_pictures
+{
+	float:left;
+	width: 40%;
+}
+
+#my_friends
+{
+	float:left;
+	width: 30%;
+	text-align:left;
+}
+#pretty_ul
+{
+	list-style-image: url("images/external_link.png");
+	
+}
+
+
